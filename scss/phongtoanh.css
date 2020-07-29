@@ -1,0 +1,14 @@
+.thumbnail {
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.3s;
+}
+
+.thumbnail img:hover {
+    transform: scale(1.2);
+}
